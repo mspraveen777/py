@@ -5,7 +5,6 @@ order of the unique items.
 
 def remove_duplicates(lst):
     new_lts = []
-    lst.sort()
     n = len(lst)
     for i in range(1, n):
         if lst[i] not in new_lts:
