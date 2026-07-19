@@ -11,4 +11,8 @@ students = {
     104: {"name": "Basu", "age": 25, "city": "Mumbai"},
 }
 for roll_no,details in students.items():
-    print(f"Roll no: {roll_no} and Details: {details}")
+    print(f"Student1: {roll_no}")
+    print(f"Name: {details["name"]}")
+    print(f"age: {details["age"]}")
+    print(f"city: {details["city"]}")
+    print()
