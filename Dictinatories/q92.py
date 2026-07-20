@@ -7,4 +7,5 @@ marks = [99,89,78,100,65]
 
 
 dict = {subjects:marks for subjects,marks in zip(subjects,marks)}
+# dict = dict(zip(subjects,marks))
 print(dict)
