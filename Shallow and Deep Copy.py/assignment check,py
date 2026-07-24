@@ -1,0 +1,16 @@
+original = [1,2,87]
+copy = original             #it coopies the adress or id not list so the original 
+copy.append(100)                    #will also change
+print(copy)                                           
+print(original)
+
+print(original is copy)   # True
+print(original == copy)   # True bcz the adress is same 
+
+a = [1,2,3,4]
+b = [1,2,3,4]
+print(a is b)   # False bcz adress is different
+print(a == b)
+
+print(id(original))
+print(id(copy))
